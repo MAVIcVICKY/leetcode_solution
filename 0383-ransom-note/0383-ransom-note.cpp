@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-bool dochechk(unordered_map<char,int>have,unordered_map<char,int>need){
+bool dochechk(unordered_map<char,int>&have,unordered_map<char,int>&need){
 
     for(auto it:need)
     {
