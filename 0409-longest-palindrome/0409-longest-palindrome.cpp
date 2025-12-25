@@ -21,7 +21,7 @@ for(auto it:f)
     }
     else
     {
-        res=res+(val-1)
+        res=res+(val-1);
     oddmila=true;
     }
 
