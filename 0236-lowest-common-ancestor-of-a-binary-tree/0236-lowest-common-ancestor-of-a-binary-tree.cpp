@@ -10,7 +10,7 @@
 class Solution {
 public:
 
-int lca(TreeNode*&root,TreeNode*&p,TreeNode* &q,TreeNode* &ans)
+int lca(TreeNode*root,TreeNode*p,TreeNode* q,TreeNode* &ans)
 {
     if(root==nullptr)
         return 0;
